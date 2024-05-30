@@ -2,19 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aea3b1ee-108d-4e87-b825-8ca8e8a63124" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TiendaFigurasColeccion.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/mycompany/test/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mycompany/models/Coleccion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mycompany/models/Dimension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mycompany/models/Figura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mycompany/models/SuperHeroe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mycompany/models/SuperVillano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mycompany/test/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mycompany/test/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -31,7 +37,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "terminal"
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RunManager">
