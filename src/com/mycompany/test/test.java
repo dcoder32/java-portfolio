@@ -39,7 +39,10 @@ public class test {
 
         figura2.subirPrecio(1);
 
-        System.out.println(coleccion.conCapa());
+        System.out.println(coleccion.masValioso());
+
+        System.out.println(coleccion.getValorColeccion());
+        System.out.println(coleccion.getVolumenTotal());
 
 
     }

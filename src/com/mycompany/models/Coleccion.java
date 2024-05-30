@@ -1,6 +1,8 @@
 package com.mycompany.models;
 
 import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.Optional;
 
 public class Coleccion {
     // ATTRIBUTES
@@ -33,5 +35,24 @@ public class Coleccion {
         return heroesConCapa;
     }
 
+    public Optional<Figura> masValioso() {
+        return coleccion.stream().max(Comparator.comparingDouble(Figura::getPrecio));
+    }
 
+    public double getValorColeccion() {
+        double valorTotal = 0;
+        for (Figura figu : coleccion) {
+            valorTotal  += figu.getPrecio();
+        }
+        return valorTotal;
+    }
+
+    public double getVolumenTotal() {
+        double volumenTotal = 0;
+        for (Figura figu : coleccion) {
+            volumenTotal += figu.getDimension().calcVol();
+        }
+
+        return volumenTotal;
+    }
 }

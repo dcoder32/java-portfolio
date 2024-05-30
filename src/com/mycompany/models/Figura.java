@@ -2,6 +2,9 @@ package com.mycompany.models;
 
 import java.util.ArrayList;
 
+
+
+
 public class Figura {
 
     // ATTRIBUTES
@@ -36,6 +39,8 @@ public class Figura {
     public void subirPrecio(double aumento){
         this.precio += aumento;
     }
+
+
 
     // GETTERS AND SETTERS
 
@@ -74,5 +79,6 @@ public class Figura {
     public String getNombre(){
         return nombre;
     }
+
 
 }
